@@ -17,7 +17,7 @@ Paket henüz Packagist'te yayınlanmadığı için, projenizin `composer.json` d
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/bmericc/laravel-mosaic"
+        "url": "https://github.com/bahricanli/laravel-mosaic"
     }
 ]
 ```
