@@ -51,11 +51,11 @@ php artisan vendor:publish --tag=mosaic-config
 
 ```php
 'providers' => [
-    Bahricanli\Mosaic\MosaicServiceProvider::class,
+    BahriCanli\Mosaic\MosaicServiceProvider::class,
 ],
 
 'aliases' => [
-    'Mosaic' => Bahricanli\Mosaic\Facades\Mosaic::class,
+    'Mosaic' => BahriCanli\Mosaic\Facades\Mosaic::class,
 ],
 ```
 
@@ -79,7 +79,7 @@ $posts     = Mosaic::posts('instagram', 20);
 ### Dependency injection ile
 
 ```php
-use Bahricanli\Mosaic\MosaicClient;
+use BahriCanli\Mosaic\MosaicClient;
 
 public function dashboard(MosaicClient $mosaic)
 {
@@ -110,7 +110,7 @@ $other = app('mosaic')->withApiKey('msk_yyy')->overview();
 | `followersHistory($platform = null, $days = 30)` | Tarih bazlı takipçi serisi (grafik). `days` en fazla 365. |
 | `posts($platform = null, $limit = 20)` | Postlar + etkileşim metrikleri. `limit` en fazla 50. |
 
-Tüm metotlar API yanıtını ilişkisel dizi (`array`) olarak döner. Hata durumunda `Bahricanli\Mosaic\Exceptions\MosaicException` fırlatılır.
+Tüm metotlar API yanıtını ilişkisel dizi (`array`) olarak döner. Hata durumunda `BahriCanli\Mosaic\Exceptions\MosaicException` fırlatılır.
 
 ### Örnek `overview()` yanıtı
 

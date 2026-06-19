@@ -16,16 +16,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Bahricanli\\Mosaic\\": "src/"
+            "BahriCanli\\Mosaic\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Bahricanli\\Mosaic\\MosaicServiceProvider"
+                "BahriCanli\\Mosaic\\MosaicServiceProvider"
             ],
             "aliases": {
-                "Mosaic": "Bahricanli\\Mosaic\\Facades\\Mosaic"
+                "Mosaic": "BahriCanli\\Mosaic\\Facades\\Mosaic"
             }
         }
     },

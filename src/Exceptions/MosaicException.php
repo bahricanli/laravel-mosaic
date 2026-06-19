@@ -1,6 +1,6 @@
 <?php
 
-namespace Bahricanli\Mosaic\Exceptions;
+namespace BahriCanli\Mosaic\Exceptions;
 
 use RuntimeException;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bahricanli\Mosaic\Facades;
+namespace BahriCanli\Mosaic\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static array followersHistory($platform = null, $days = 30)
  * @method static array posts($platform = null, $limit = 20)
  *
- * @see \Bahricanli\Mosaic\MosaicClient
+ * @see \BahriCanli\Mosaic\MosaicClient
  */
 class Mosaic extends Facade
 {

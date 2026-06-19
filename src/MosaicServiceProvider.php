@@ -1,6 +1,6 @@
 <?php
 
-namespace Bahricanli\Mosaic;
+namespace BahriCanli\Mosaic;
 
 use Illuminate\Support\ServiceProvider;
 

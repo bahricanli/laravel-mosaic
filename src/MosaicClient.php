@@ -1,8 +1,8 @@
 <?php
 
-namespace Bahricanli\Mosaic;
+namespace BahriCanli\Mosaic;
 
-use Bahricanli\Mosaic\Exceptions\MosaicException;
+use BahriCanli\Mosaic\Exceptions\MosaicException;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\GuzzleException;
 
